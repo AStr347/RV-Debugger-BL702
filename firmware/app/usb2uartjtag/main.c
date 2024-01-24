@@ -27,7 +27,6 @@
 #include "bl702_ef_ctrl.h"
 #include "bl702_usb.h"
 #include "bl702_glb.h"
-#include "hal_gpio.h"
 #include "io_cfg.h"
 
 /*

@@ -22,6 +22,7 @@
  */
 #ifndef _IO_CFG_H
 #define _IO_CFG_H
+#include "hal_gpio.h"
  
 #define UART_TXD_PIN	GPIO_PIN_26
 #define UART_RXD_PIN	GPIO_PIN_27
