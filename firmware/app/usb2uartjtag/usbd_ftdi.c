@@ -111,7 +111,7 @@ static int ftdi_vendor_request_handler(struct usb_setup_packet *pSetup,uint8_t *
 			break;
 		case SIO_RESET_REQUEST:
 			gpio_write(UART_DTR_PIN, 0);
-			for(uint32_t i = 0; i < 1000000; i++){
+			for(uint32_t i = 0; i < 10000; i++){
 				__asm("nop");
 			}
 			gpio_write(UART_DTR_PIN, 1);
